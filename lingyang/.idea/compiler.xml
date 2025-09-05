@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lingyang-item-interface" />
+        <module name="lingyang-registry" />
+        <module name="lingyang-auth-common" />
+        <module name="lingyang-auth-service" />
+        <module name="lingyang-user-service" />
+        <module name="lingyang-cart" />
+        <module name="lingyang-item-service" />
+        <module name="lingyang-upload" />
+        <module name="lingyang-search" />
+        <module name="lingyang-goods-web" />
+        <module name="lingyang-common" />
+        <module name="lingyang-order" />
+        <module name="lingyang-sms" />
+        <module name="lingyang-user-interface" />
+        <module name="lingyang-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lingyang" options="-parameters" />
+      <module name="lingyang-auth" options="-parameters" />
+      <module name="lingyang-auth-common" options="-parameters" />
+      <module name="lingyang-auth-service" options="-parameters" />
+      <module name="lingyang-cart" options="-parameters" />
+      <module name="lingyang-common" options="-parameters" />
+      <module name="lingyang-gateway" options="-parameters" />
+      <module name="lingyang-goods-web" options="-parameters" />
+      <module name="lingyang-item" options="-parameters" />
+      <module name="lingyang-item-interface" options="-parameters" />
+      <module name="lingyang-item-service" options="-parameters" />
+      <module name="lingyang-order" options="-parameters" />
+      <module name="lingyang-registry" options="-parameters" />
+      <module name="lingyang-search" options="-parameters" />
+      <module name="lingyang-sms" options="-parameters" />
+      <module name="lingyang-upload" options="-parameters" />
+      <module name="lingyang-user" options="-parameters" />
+      <module name="lingyang-user-interface" options="-parameters" />
+      <module name="lingyang-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

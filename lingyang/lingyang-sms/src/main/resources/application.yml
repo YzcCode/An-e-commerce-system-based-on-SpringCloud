@@ -1,0 +1,16 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 127.0.0.1
+    virtual-host: /lingyang
+    username: lingyang
+    password: lingyang
+lingyang:
+  sms:
+    accessKeyId: LTAI5tDZMsMY5fJ4YaLD64W8
+    accessKeySecret: O0kRo6850ANihsW0WnXAYFpiUUr7MV
+    signName: 羚羊商城                        #签名名称
+    verifyCodeTemplate: SMS_274530174       #模板名称

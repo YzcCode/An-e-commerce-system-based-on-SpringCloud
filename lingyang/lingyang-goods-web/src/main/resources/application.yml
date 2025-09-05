@@ -1,0 +1,20 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: goods-web
+  main:
+    allow-bean-definition-overriding: true
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: lingyang
+    password: lingyang
+    virtual-host: /lingyang
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5

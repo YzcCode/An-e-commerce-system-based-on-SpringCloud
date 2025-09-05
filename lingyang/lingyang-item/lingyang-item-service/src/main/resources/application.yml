@@ -1,0 +1,27 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: item-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/shopping?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: lingyang
+    password: lingyang
+    virtual-host: /lingyang
+    template:
+      exchange: LINGYANG.ITEM.EXCHANGE
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+  instance:
+    lease-expiration-duration-in-seconds: 15          #过期时间
+    lease-renewal-interval-in-seconds: 5              #心跳时间
+mybatis:
+  type-aliases-package: com.lingyang.item.pojo
